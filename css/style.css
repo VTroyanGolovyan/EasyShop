@@ -1,0 +1,265 @@
+body{
+  padding: 0;
+  margin: 0;
+  background: #e0e0e0;
+}
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+.content_area{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.munuItem{
+  padding: 8px;
+  font-size: 18px;
+  text-align: center;
+}
+header{
+  width: 100%;
+  background: #007a43;
+  height: 50px;
+  color:white;
+  display: flex;
+}
+.headerButtons{
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+}
+header span{
+  line-height: 50px;
+  padding-left: 8px;
+  font-size: 24px;
+  width:calc(20% - 8px);
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+header a{
+  color:white;
+  text-decoration: none;
+  width:25%;
+  line-height: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+footer{
+  background: #007a43;
+  color: white;
+  padding: 8px;
+  text-align: center;
+}
+header a:hover{
+background: #01b765;
+}
+nav{
+  width: calc(20% - 24px);
+  background: white;
+  box-shadow: 1px 1px 0px #afafaf;
+  border-radius: 3px;
+  padding: 4px;
+  margin: 8px 8px;
+}
+main{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width:80%;
+  align-items: flex-start;
+  padding: 8px 0;
+}
+.product{
+  width:calc(25% - 24px);
+  margin-right: 8px;
+  background: white;
+  box-shadow: 1px 1px 0px #afafaf;
+  border-radius: 3px;
+  padding: 4px 8px;
+  margin-bottom: 8px;
+}
+.reg{
+  width:60%;
+  margin: auto;
+  background: white;
+  box-shadow: 1px 1px 0px #afafaf;
+  border-radius: 3px;
+  padding: 8px;
+}
+.reg h2{
+  margin: 0;
+  padding: 0;
+    margin-bottom: 16px;
+  text-align: center;
+  color: #007a43;
+}
+.reg input{
+  width: calc(100% - 2px);
+  height: 30px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 16px;
+  outline: none;
+  border: solid 1px  #007a43;
+  border-radius: 3px;
+}
+.submit{
+  background:#007a43;
+  color:white;
+  cursor: pointer;
+}
+.productHeader{
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+}
+.productImage{
+  width: 100%;
+  border-radius: 3px;
+}
+.productAbout{
+  width:80%;
+  margin: auto;
+  display: flex;
+    align-items: flex-start;
+  flex-direction: row;
+}
+.aboutP{
+  width: calc(70% - 16px);
+  margin: 0 0 0 8px;
+  padding: 0 8px 8px 0px;
+  display: flex;
+  flex-direction: column;
+
+}
+.imageContainer{
+  width: calc(30% - 16px);
+  background: white;
+  padding: 8px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.imageContainer img{
+  width: 100%;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.productName{
+  background: white;
+  font-size: 18px;
+  border-radius: 3px;
+  padding: 8px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.sectionAbout{
+  background: white;
+  margin-bottom: 8px;
+  border-radius: 3px;
+  padding: 8px;
+}
+.sectionAboutBig{
+background: white;
+  margin-bottom: 8px;
+  border-radius: 3px;
+  padding: 8px;
+  width:100%;
+}
+.coment{
+  display: flex;
+  padding: 8px 0 0 0;
+}
+.comentForm{
+  display: flex;
+  flex-direction: row;
+}
+.input{
+  width: calc(60% - 2px);
+  height: 30px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 16px;
+  outline: none;
+  border: solid 1px  #007a43;
+  border-radius: 3px;
+}
+.submit{
+  width:calc(40% - 8px);
+  border: none;
+  margin-left: 8px;
+  border-radius:3px;
+  height: 30px;
+}
+.calc{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.calc input{
+  width: 80%;
+  height: 30px;
+}
+.aboutItem{
+  display: flex;
+  padding: 4px;
+  background: white;
+}
+
+.aboutItem div:first-child{
+  width: 30%;
+}
+.aboutItem2, .aboutItem3{
+  display: flex;
+  padding: 4px;
+  background: white;
+}
+
+.aboutItem2 div:first-child{
+  width: 50%;
+  text-align: center;
+}
+.aboutItem3  div{
+  width: 33.3333%;
+  text-align: center;
+}
+textarea{
+  min-width:100%;
+  max-width:100%;
+}
+.error{
+  color:red;
+}
+.comentContent{
+  padding-left: 8px;
+}
+.pageList{
+  width:100%;
+  display: inline-flex;
+  flex-wrap:wrap;
+}
+.pageList a{
+  width: 40px;
+  border-radius: 3px;
+  box-shadow: 0 0 1px black;
+  background: white;
+  margin-right: 8px;
+  font-size: 18px;
+  text-align: center;]
+  overflow: hidden;
+}
+.activebutton{
+  background: #007a43;
+  color: white;
+  font-size: 20px;
+}
+.act{
+  color: #007a43;
+}
+img{
+  border-radius: 3px;
+}
